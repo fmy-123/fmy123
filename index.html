@@ -18,6 +18,16 @@
 </head>
 <body>
     <div>元旦快乐!</div>
-    
+    <input type="button" value="点击好运来">
+
 </body>
 </html>
+<script>
+    let body=document.querySelector('body')
+    document.querySelector('input').onclick=function(){
+
+   
+    body.innerHTML='<h1>新年快乐</h1>';
+    body.style.backgroundColor='red';
+};
+</script>
